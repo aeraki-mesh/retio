@@ -188,7 +188,7 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
       - name: Build retio Latest Image
         run: |
-          make image.build.linux_amd64.retio VERSION=latest
+          make image.build.linux_amd64.retio
       - name: Build and Push Image to DockerHub
         run: |
-          make image.push.linux_amd64.retio VERSION=latest
+          make image.push.linux_amd64.retio
