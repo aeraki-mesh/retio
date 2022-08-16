@@ -104,6 +104,11 @@ lint:
 test:
 	@$(MAKE) go.test
 
+## test: Run go mod check.
+.PHONY: check
+check:
+	@$(MAKE) go.check
+
 ## help: Show this help info.
 .PHONY: help
 help: Makefile

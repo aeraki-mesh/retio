@@ -86,3 +86,15 @@ go.lint: go.lint.verify
 go.test: 
 	@echo "===========> Run unit test"
 	$(GO) test -count=1 -timeout=10m -short -v `go list ./...`
+
+.PHONY: go.check
+go.check:
+	@echo "===========> Run Go Style Check"
+	@go mod tidy -compat=$(GO_VERSION)
+	@if test -n "$$(git status -s -- go.mod go.sum)"; then \
+		git diff --exit-code go.mod; \
+		git diff --exit-code go.sum; \
+   		echo '\nError: ensure all changes have been committed!'; \
+	else \
+		echo 'Go module looks clean!'; \
+   	fi
