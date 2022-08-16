@@ -2,7 +2,7 @@ name: retio Dev Pipeline 🌊
 
 on:
   push:
-    branches: [master]
+    branches: [main]
     paths-ignore:
       - 'docs/**'
       - '**/*.md'
