@@ -1,0 +1,70 @@
+run :
+  deadline : 10m
+  tests : true
+  modules-download-mode : readonly
+
+
+linters :
+  disable-all : true
+  enable :
+    - unused
+    - gofmt
+    - ineffassign
+    - govet
+    - deadcode
+    - varcheck
+    - typecheck
+    - unconvert
+    - staticcheck
+    - gosimple
+    - goconst
+    - gocyclo
+    - revive
+    - goimports
+    - errcheck
+    - forcetypeassert
+    - lll
+
+issues :
+  exclude-rules :
+    - linters :
+        - staticcheck
+      text : "SA1019:"
+
+linters-settings :
+  goconst :
+    min-len : 2
+    min-occurrences : 4
+  gocyclo :
+    min-complexity : 20
+  goimports :
+    local-prefixes : retio.io/retio
+  revive:
+    rules:
+      - name: blank-imports
+      - name: context-keys-type
+      - name: dot-imports
+      - name: error-return
+      - name: error-strings
+      - name: if-return
+      - name: increment-decrement
+      - name: package-comments
+      - name: range
+      - name: receiver-naming
+      - name: time-naming
+      - name: unexported-return
+      - name: indent-error-flow
+      - name: errorf
+      - name: empty-block
+      - name: superfluous-else
+      - name: unreachable-code
+      - name: redefines-builtin-id
+      - name: var-declaration
+      - name: context-as-argument
+      - name: error-naming
+      - name: exported
+      - name: unused-parameter
+  lll :
+    line-length : 120
+  errcheck :
+    check-type-assertions : true
