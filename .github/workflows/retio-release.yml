@@ -68,12 +68,12 @@ jobs:
           if-no-files-found: error
       - name: Compress Artifact
         run: zip retio.darwin_amd64.zip retio
-        working-directory: _output/linux/arm64
+        working-directory: _output/darwin/amd64
       - name: Upload Artifact to Release
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: _output/linux/arm64/retio.darwin_amd64.zip
+          file: _output/darwin/amd64/retio.darwin_amd64.zip
           tag: ${{ github.ref }}
 
   build-binary-darwin-arm64-artifact:
@@ -99,12 +99,12 @@ jobs:
           if-no-files-found: error
       - name: Compress Artifact
         run: zip retio.darwin_arm64.zip retio
-        working-directory: _output/linux/arm64
+        working-directory: _output/darwin/arm64
       - name: Upload Artifact to Release
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: _output/linux/arm64/retio.darwin_arm64.zip
+          file: _output/darwin/arm64/retio.darwin_arm64.zip
           tag: ${{ github.ref }}
 
   build-binary-linux-amd64-artifact:
@@ -130,12 +130,12 @@ jobs:
           if-no-files-found: error
       - name: Compress Artifact
         run: zip retio.linux_amd64.zip retio
-        working-directory: _output/linux/arm64
+        working-directory: _output/linux/amd64
       - name: Upload Artifact to Release
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: _output/linux/arm64/retio.linux_amd64.zip
+          file: _output/linux/amd64/retio.linux_amd64.zip
           tag: ${{ github.ref }}
 
   build-binary-linux-arm64-artifact:
