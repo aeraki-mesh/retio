@@ -7,9 +7,15 @@
 
 # Test binary, built with `go test -c`
 *.test
+.DS_Store
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+_output/
 
 # Dependency directories (remove the comment below to include it)
-# vendor/
+vendor/
+
+# Configuration of Editors and IDE
+.idea/
+.vscode/
