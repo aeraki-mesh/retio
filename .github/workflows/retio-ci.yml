@@ -1,4 +1,4 @@
-name: retio Dev Pipeline 🌊
+name: Retio Dev Pipeline 🌊
 
 on:
   push:
