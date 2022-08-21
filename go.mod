@@ -1,4 +1,4 @@
-module retio.io/retio
+module github.com/aeraki-mesh/retio
 
 go 1.18
 

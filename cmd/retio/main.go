@@ -15,7 +15,7 @@ limitations under the License.
 */
 package main
 
-import cmd "retio.io/retio/cmd/retio/app"
+import cmd "github.com/aeraki-mesh/retio/cmd/retio/app"
 
 func main() {
 	cmd.Execute()

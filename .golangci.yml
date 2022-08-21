@@ -38,7 +38,7 @@ linters-settings :
   gocyclo :
     min-complexity : 20
   goimports :
-    local-prefixes : retio.io/retio
+    local-prefixes : github.com/aeraki-mesh/retio
   revive:
     rules:
       - name: blank-imports

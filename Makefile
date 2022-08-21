@@ -18,8 +18,8 @@ all: lint test build
 # ==============================================================================
 # Build options
 
-ROOT_PACKAGE=retio.io/retio
-VERSION_PACKAGE=retio.io/retio/pkg/app/version
+ROOT_PACKAGE=github.com/aeraki-mesh/retio
+VERSION_PACKAGE=github.com/aeraki-mesh/retio/pkg/app/version
 
 # ==============================================================================
 # Includes
