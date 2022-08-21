@@ -68,7 +68,7 @@ Connecting External Registries to Istio
 <!-- About the Project -->
 ## About the Project
 
-**Retio** is the short word for "Registries to Istio", which is capable to communicate with Service Registries and Service Mesh (Istio). It is   an easy-to-use and extendable **adaptor** if you have a service registry and intend to integrate it with Istio. You can just deploy it and tell it which service registries you want to talk to, then Istio will identify the services in the registries.
+**Retio** is the short word for `Registries to Istio`, which is capable to communicate with Service Registries and Service Mesh (Istio). It is an easy-to-use and extendable **adaptor** if you have a service registry and intend to integrate it with Istio. You can just deploy it and tell it which service registries you want to talk to, then it will start to work, and Istio will identify the services in the registries.
 
 <!--  Background -->
 
