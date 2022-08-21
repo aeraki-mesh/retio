@@ -11,34 +11,34 @@ Connecting External Registry to Istio
 <!-- Badges -->
 
 <p>
-  <a href="https://github.com/aeraki-mesh/registries2istio/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/aeraki-mesh/registries2istio" alt="contributors" />
+  <a href="https://github.com/aeraki-mesh/retio/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/aeraki-mesh/retio" alt="contributors" />
   </a>
   <a href="">
-    <img src="https://img.shields.io/github/last-commit/aeraki-mesh/registries2istio" alt="last update" />
+    <img src="https://img.shields.io/github/last-commit/aeraki-mesh/retio" alt="last update" />
   </a>
-  <a href="https://github.com/aeraki-mesh/registries2istio/network/members">
-    <img src="https://img.shields.io/github/forks/aeraki-mesh/registries2istio" alt="forks" />
+  <a href="https://github.com/aeraki-mesh/retio/network/members">
+    <img src="https://img.shields.io/github/forks/aeraki-mesh/retio" alt="forks" />
   </a>
-  <a href="https://github.com/aeraki-mesh/registries2istio/stargazers">
-    <img src="https://img.shields.io/github/stars/aeraki-mesh/registries2istio" alt="stars" />
+  <a href="https://github.com/aeraki-mesh/retio/stargazers">
+    <img src="https://img.shields.io/github/stars/aeraki-mesh/retio" alt="stars" />
   </a>
-  <a href="https://github.com/aeraki-mesh/registries2istio/issues/">
-    <img src="https://img.shields.io/github/issues/aeraki-mesh/registries2istio" alt="open issues" />
+  <a href="https://github.com/aeraki-mesh/retio/issues/">
+    <img src="https://img.shields.io/github/issues/aeraki-mesh/retio" alt="open issues" />
   </a>
-  <a href="https://github.com/aeraki-mesh/registries2istio/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/aeraki-mesh/registries2istio.svg" alt="license" />
+  <a href="https://github.com/aeraki-mesh/retio/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/aeraki-mesh/retio.svg" alt="license" />
   </a>
 </p>
 
 <h4>
-    <a href="https://github.com/aeraki-mesh/registries2istio/">View Demo</a>
+    <a href="https://github.com/aeraki-mesh/retio/">View Demo</a>
   <span> · </span>
-    <a href="https://github.com/aeraki-mesh/registries2istio">Documentation</a>
+    <a href="https://github.com/aeraki-mesh/retio">Documentation</a>
   <span> · </span>
-    <a href="https://github.com/aeraki-mesh/registries2istio/issues/">Report Bug</a>
+    <a href="https://github.com/aeraki-mesh/retio/issues/">Report Bug</a>
   <span> · </span>
-    <a href="https://github.com/aeraki-mesh/registries2istio/issues/">Request Feature</a>
+    <a href="https://github.com/aeraki-mesh/retio/issues/">Request Feature</a>
   </h4>
 </div>
 
@@ -97,7 +97,7 @@ Connecting External Registry to Istio
 Clone the project
 
 ```bash
-  git clone https://github.com/aeraki-mesh/registries2istio.git
+  git clone https://github.com/aeraki-mesh/retio.git
 ```
 
 
@@ -119,8 +119,8 @@ Use this space to tell a little more about your project and how it can be used. 
 <!-- Contributing -->
 ## Contributing
 
-<a href="https://github.com/aeraki-mesh/registries2istio/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=aeraki-mesh/registries2istio" />
+<a href="https://github.com/aeraki-mesh/retio/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=aeraki-mesh/retio" />
 </a>
 
 
@@ -131,7 +131,7 @@ See `contributing.md` for ways to get started.
 <!-- Code of Conduct -->
 ### Code of Conduct
 
-Please read the [Code of Conduct](https://github.com/aeraki-mesh/registries2istio/blob/master/CODE_OF_CONDUCT.md)
+Please read the [Code of Conduct](https://github.com/aeraki-mesh/retio/blob/master/CODE_OF_CONDUCT.md)
 
 
 <!-- License -->
@@ -145,7 +145,7 @@ Distributed under the Apache License 2.0 . See LICENSE.txt for more information.
 
 Xunzhuo - [@liuxunzhuo](https://twitter.com/liuxunzhuo) - mixdeers@gmail.com
 
-Project Link: [https://github.com/aeraki-mesh/registries2istio](https://github.com/aeraki-mesh/registries2istio)
+Project Link: [https://github.com/aeraki-mesh/retio](https://github.com/aeraki-mesh/retio)
 
 <!-- Acknowledgments -->
 ## Acknowledgements
