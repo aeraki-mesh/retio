@@ -4,8 +4,9 @@
   <h1>Retio</h1>
 
   <p>
-Connecting External Registry to Istio
+Connecting External Registries to Istio
   </p>
+
 
 
 <!-- Badges -->
@@ -45,6 +46,7 @@ Connecting External Registry to Istio
 <br />
 
 <!-- Table of Contents -->
+
 # Table of Contents
 
 - [About the Project](#about-the-project)
@@ -66,18 +68,22 @@ Connecting External Registry to Istio
 <!-- About the Project -->
 ## About the Project
 
-<div align="center"> 
-</div>
+**Retio** is the short word for "Registries to Istio", which is capable to communicate with Service Registries and Service Mesh (Istio). It is   an easy-to-use and extendable **adaptor** if you have a service registry and intend to integrate it with Istio. You can just deploy it and tell it which service registries you want to talk to, then Istio will identify the services in the registries.
 
 <!--  Background -->
+
 ### Background
 
+While service mesh becomes an important infrastructure for microservices, more and more developers are trying to use Service Mesh like Istio and putting it into production. Also there are many open source service registry projects for discovering services, such as Polaris, Consul, Nacos, ZooKeeper, ETCD, Eureka. So **Retio** is designed to integrate these registries infrastructures with Istio easily. Just give **Retio** one or more registry addresses, then it is done and you do not need to wrong about anything else.
+
 <!-- Features -->
+
 ### Features
 
-- Feature 1
-- Feature 2
-- Feature 3
+- Provide an easy-to-use way to integrate Istio with Registries by Service Entries and Mesh Configuration Protocol(MCP).
+- Provide the **1 to more** model to integrate Service Mesh with more than one Registries at the same time.
+- Provide the convenient way to implement a new Service Registry, which is designed to implement more Registries.
+- Provide different options to deploy **Retio** in Kubernetes, so you can choose one as you like.
 
 <!-- Getting Started -->
 ## Getting Started
@@ -88,35 +94,48 @@ Connecting External Registry to Istio
 <!-- Installation -->
 ### Installation
 
+You can install **Retio** with Helm Charts and Kubernetes Operator.
+
 ```bash
 ```
 
 <!-- Run Locally -->
 ### Run Locally
 
-Clone the project
+Clone the project and run:
 
 ```bash
   git clone https://github.com/aeraki-mesh/retio.git
-```
-
-
-<!-- Usage -->
-## Usage
-
-Use this space to tell a little more about your project and how it can be used. Show additional screenshots, code samples, demos or link to other resources.
-
-
-```
+  make deploy
 ```
 
 <!-- Roadmap -->
 ## Roadmap
 
-* [x] Todo 1
-* [ ] Todo 2
+* [ ] Support ServiceEntry Conventions
+  * [ ] Polaris
+  * [ ] Consul
+  * [ ] Nacos
+  * [ ] ZooKeeper
+  * [ ] ETCD
+  * [ ] Eureka
+  * [ ] .........
+* [ ] Support Mesh Configuration Protocol (MCP)
+  * [ ] Polaris
+  * [ ] Consul
+  * [ ] Nacos
+  * [ ] ZooKeeper
+  * [ ] ETCD
+  * [ ] Eureka
+  * [ ] .........
+* [ ] Support Different Deployment Mode
+  * [ ] Quick Start
+  * [ ] Helm Chart
+  * [ ] Kubernetes Operator
+
 
 <!-- Contributing -->
+
 ## Contributing
 
 <a href="https://github.com/aeraki-mesh/retio/graphs/contributors">
@@ -143,11 +162,9 @@ Distributed under the Apache License 2.0 . See LICENSE.txt for more information.
 <!-- Contact -->
 ## Contact
 
-Xunzhuo - [@liuxunzhuo](https://twitter.com/liuxunzhuo) - mixdeers@gmail.com
+Mail List: cncf-aerakimesh-maintainers@lists.cncf.io
 
 Project Link: [https://github.com/aeraki-mesh/retio](https://github.com/aeraki-mesh/retio)
 
 <!-- Acknowledgments -->
 ## Acknowledgements
-
-Use this section to mention useful resources and libraries that you have used in your projects.
