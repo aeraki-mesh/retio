@@ -80,9 +80,9 @@ While service mesh becomes an important infrastructure for microservices, more a
 
 ### Features
 
-- Provide an easy-to-use way to integrate Istio with Registries by Service Entries and Mesh Configuration Protocol(MCP).
-- Provide the **1 to more** model to integrate Service Mesh with more than one Registries at the same time.
-- Provide the convenient way to implement a new Service Registry, which is designed to implement more Registries.
+- Provide an easy-to-use way to integrate Istio with Registries by MCP and Service Entries.
+- Provide an **1 to more** model to integrate Istio with more than one Registries at the same time.
+- Provide an easy and extendable approach to implement the new Service Registry Models.
 - Provide different options to deploy **Retio** in Kubernetes, so you can choose one as you like.
 
 <!-- Getting Started -->
@@ -106,7 +106,6 @@ Clone the project and run:
 
 ```bash
   git clone https://github.com/aeraki-mesh/retio.git
-  make deploy
 ```
 
 <!-- Roadmap -->
