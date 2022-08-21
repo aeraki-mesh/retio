@@ -2,42 +2,43 @@
 
   <img src="assets/img/logo.png" alt="logo" width="200" height="auto" />
   <h1>Retio</h1>
-  
+
   <p>
 Connecting External Registry to Istio
   </p>
 
-  
+
 <!-- Badges -->
+
 <p>
-  <a href="https://github.com/Xunzhuo/retio/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/Xunzhuo/retio" alt="contributors" />
+  <a href="https://github.com/aeraki-mesh/registries2istio/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/aeraki-mesh/registries2istio" alt="contributors" />
   </a>
   <a href="">
-    <img src="https://img.shields.io/github/last-commit/Xunzhuo/retio" alt="last update" />
+    <img src="https://img.shields.io/github/last-commit/aeraki-mesh/registries2istio" alt="last update" />
   </a>
-  <a href="https://github.com/Xunzhuo/retio/network/members">
-    <img src="https://img.shields.io/github/forks/Xunzhuo/retio" alt="forks" />
+  <a href="https://github.com/aeraki-mesh/registries2istio/network/members">
+    <img src="https://img.shields.io/github/forks/aeraki-mesh/registries2istio" alt="forks" />
   </a>
-  <a href="https://github.com/Xunzhuo/retio/stargazers">
-    <img src="https://img.shields.io/github/stars/Xunzhuo/retio" alt="stars" />
+  <a href="https://github.com/aeraki-mesh/registries2istio/stargazers">
+    <img src="https://img.shields.io/github/stars/aeraki-mesh/registries2istio" alt="stars" />
   </a>
-  <a href="https://github.com/Xunzhuo/retio/issues/">
-    <img src="https://img.shields.io/github/issues/Xunzhuo/retio" alt="open issues" />
+  <a href="https://github.com/aeraki-mesh/registries2istio/issues/">
+    <img src="https://img.shields.io/github/issues/aeraki-mesh/registries2istio" alt="open issues" />
   </a>
-  <a href="https://github.com/Xunzhuo/retio/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/Xunzhuo/retio.svg" alt="license" />
+  <a href="https://github.com/aeraki-mesh/registries2istio/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/aeraki-mesh/registries2istio.svg" alt="license" />
   </a>
 </p>
-   
+
 <h4>
-    <a href="https://github.com/Xunzhuo/retio/">View Demo</a>
+    <a href="https://github.com/aeraki-mesh/registries2istio/">View Demo</a>
   <span> · </span>
-    <a href="https://github.com/Xunzhuo/retio">Documentation</a>
+    <a href="https://github.com/aeraki-mesh/registries2istio">Documentation</a>
   <span> · </span>
-    <a href="https://github.com/Xunzhuo/retio/issues/">Report Bug</a>
+    <a href="https://github.com/aeraki-mesh/registries2istio/issues/">Report Bug</a>
   <span> · </span>
-    <a href="https://github.com/Xunzhuo/retio/issues/">Request Feature</a>
+    <a href="https://github.com/aeraki-mesh/registries2istio/issues/">Request Feature</a>
   </h4>
 </div>
 
@@ -96,7 +97,7 @@ Connecting External Registry to Istio
 Clone the project
 
 ```bash
-  git clone https://github.com/Xunzhuo/retio.git
+  git clone https://github.com/aeraki-mesh/registries2istio.git
 ```
 
 
@@ -118,8 +119,8 @@ Use this space to tell a little more about your project and how it can be used. 
 <!-- Contributing -->
 ## Contributing
 
-<a href="https://github.com/Xunzhuo/retio/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Xunzhuo/retio" />
+<a href="https://github.com/aeraki-mesh/registries2istio/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=aeraki-mesh/registries2istio" />
 </a>
 
 
@@ -130,7 +131,7 @@ See `contributing.md` for ways to get started.
 <!-- Code of Conduct -->
 ### Code of Conduct
 
-Please read the [Code of Conduct](https://github.com/Xunzhuo/retio/blob/master/CODE_OF_CONDUCT.md)
+Please read the [Code of Conduct](https://github.com/aeraki-mesh/registries2istio/blob/master/CODE_OF_CONDUCT.md)
 
 
 <!-- License -->
@@ -144,7 +145,7 @@ Distributed under the Apache License 2.0 . See LICENSE.txt for more information.
 
 Xunzhuo - [@liuxunzhuo](https://twitter.com/liuxunzhuo) - mixdeers@gmail.com
 
-Project Link: [https://github.com/Xunzhuo/retio](https://github.com/Xunzhuo/retio)
+Project Link: [https://github.com/aeraki-mesh/registries2istio](https://github.com/aeraki-mesh/registries2istio)
 
 <!-- Acknowledgments -->
 ## Acknowledgements
