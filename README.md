@@ -27,7 +27,7 @@ Connecting External Registries to Istio
   <a href="https://github.com/aeraki-mesh/retio/issues/">
     <img src="https://img.shields.io/github/issues/aeraki-mesh/retio" alt="open issues" />
   </a>
-  <a href="https://github.com/aeraki-mesh/retio/blob/master/LICENSE">
+  <a href="https://github.com/aeraki-mesh/retio/blob/main/LICENSE">
     <img src="https://img.shields.io/github/license/aeraki-mesh/retio.svg" alt="license" />
   </a>
 </p>
@@ -150,7 +150,7 @@ See `contributing.md` for ways to get started.
 <!-- Code of Conduct -->
 ### Code of Conduct
 
-Please read the [Code of Conduct](https://github.com/aeraki-mesh/retio/blob/master/CODE_OF_CONDUCT.md)
+Please read the [Code of Conduct](https://github.com/aeraki-mesh/retio/blob/main/CODE_OF_CONDUCT.md)
 
 
 <!-- License -->
