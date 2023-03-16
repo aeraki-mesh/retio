@@ -94,10 +94,6 @@ While service mesh becomes an important infrastructure for microservices, more a
 <!-- Installation -->
 ### Installation
 
-You can install **Retio** with Helm Charts and Kubernetes Operator.
-
-```bash
-```
 
 <!-- Run Locally -->
 ### Run Locally
